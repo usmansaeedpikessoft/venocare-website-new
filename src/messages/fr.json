@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Traitement des Varices à Dubaï | Spécialistes de l'Ablation Laser et Chirurgie Vasculaire",
+    "description": "Traitement expert des varices à Dubaï. Spécialisé dans le traitement au laser, l'ablation veineuse et la sclérothérapie. Soulagement des jambes lourdes et douloureuses.",
+    "keywords": "traitement varices dubaï, chirurgien vasculaire dubaï, ablation laser veine, soulagement gonflement jambes, varicosités visibles, sclérothérapie dubaï",
+    "ogTitle": "Traitement Avancé des Varices à Dubaï | VenoCare",
+    "ogDescription": "Soulagement permanent des veines apparentes et du gonflement des jambes avec les meilleurs chirurgiens vasculaires à Dubaï."
+  },
+  "header": {
+    "logoAlt": "Logo Clinique VenoCare Dubaï",
+    "phone": "052 993 6643",
+    "phoneLabel": "Appeler",
+    "home": "Accueil",
+    "doctor": "Notre Médecin",
+    "treatments": "Traitements",
+    "prices": "Tarifs",
+    "contact": "Contact"
+  },
+  "promo": {
+    "text": "MEMBRES ESAAD & FAZAA : 20% DE RÉDUCTION SUR TOUTES LES PROCÉDURES"
+  },
+  "hero": {
+    "heading": "Traitement Avancé des Varices à Dubaï",
+    "subheading": "Soulagement permanent des veines apparentes et du gonflement des jambes grâce à la chirurgie vasculaire moderne et la thérapie laser.",
+    "cta": "Demander un examen clinique"
+  },
+  "physician": {
+    "sectionTitle": "Chirurgien Vasculaire de Classe Mondiale à Dubaï",
+    "photoAlt": "Dr Samir Issa - Chirurgien Vasculaire et Directeur Médical",
+    "name": "Dr Samir Issa",
+    "subtitle": "Chirurgien Vasculaire Consultant & Directeur Médical",
+    "description": "Expert en traitements laser et technologie endovasculaire."
+  },
+  "services": {
+    "sectionTitle": "Options de Traitement : Varices & Varicosités",
+    "ablation": {
+      "title": "Ablation Veineuse & Laser",
+      "description": "Traitement laser peu invasif pour un soulagement permanent des veines saillantes et des douleurs aux jambes.",
+      "alt": "Ablation veineuse laser"
+    },
+    "sclerotherapy": {
+      "title": "Varicosités & Veines en Filet",
+      "description": "Éliminez les varicosités visibles grâce à la sclérothérapie, une procédure rapide et indolore.",
+      "alt": "Sclérothérapie"
+    },
+    "diagnostic": {
+      "title": "Laboratoire Vasculaire",
+      "description": "Étude non invasive pour identifier la cause exacte du gonflement des jambes.",
+      "alt": "Laboratoire Vasculaire"
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Tarifs des Traitements & Politique Promotionnelle",
+    "policyTitle": "Politique de Promotion",
+    "discount50a": "Revenu du foyer inférieur à 5 000 AED par mois.",
+    "discount50b": "À partir de la 4ème séance de sclérothérapie.",
+    "discount25": "Revenu du foyer inférieur à 10 000 AED par mois, et professionnels de santé.",
+    "discount50Label": "50% de réduction :",
+    "discount25Label": "25% de réduction :",
+    "serviceHeader": "Service Médical / Procédure",
+    "priceHeader": "Prix (AED)",
+    "services": [
+      { "name": "Consultation en Chirurgie Vasculaire", "price": "500" },
+      { "name": "Échographie Détaillée (Deux Côtés)", "price": "1,300" },
+      { "name": "Consultation Vasculaire + Échographie (sous 10 jours)", "price": "1,200" },
+      { "name": "Étude Non Invasive en Lab Vasculaire (Artérielle ou Veineuse)", "price": "1,600" },
+      { "name": "Sclérothérapie des Veines Superficielles (Guidée par Écho)", "price": "2,500" },
+      { "name": "Séance Sclérothérapie/Veinwave (20 Min)", "price": "2,500" },
+      { "name": "Traitement Veinwave Varicosités Visage (10 Min)", "price": "1,500" },
+      { "name": "Radiofréquence VeinWave/EVRF (Visage - 10 Min ou moins)", "price": "1,500" },
+      { "name": "Fermeture Endoveineuse (Laser ou RF) - Première Veine", "price": "12,450" },
+      { "name": "Fermeture Endoveineuse - Deuxième Veine (Même Séance)", "price": "6,000" }
+    ]
+  },
+  "education": {
+    "sectionTitle": "Éducation des Patients & Santé des Jambes",
+    "pdfTitle": "Guides d'Information Patient (PDF)",
+    "pdfs": ["#ScleroTherapy", "#Laser Ablation", "#Face Vessels", "#Improving Venous Flow", "#FAQ"],
+    "items": [
+      {
+        "title": "Quelles sont les causes du gonflement des jambes ?",
+        "text": "Le gonflement est souvent le signe d'une insuffisance veineuse sous-jacente identifiée par échographie. Il est préférable de consulter tôt."
+      },
+      {
+        "title": "Varicosités et Veines Apparentes",
+        "text": "Les veines apparentes ou les varicosités peuvent indiquer un dysfonctionnement des valves veineuses et se traitent efficacement après évaluation."
+      },
+      {
+        "title": "Douleurs aux Jambes",
+        "text": "Une douleur chronique aux jambes est un symptôme classique des varices qui peut être traité de façon permanente par ablation veineuse."
+      }
+    ]
+  },
+  "contact": {
+    "locationTitle": "Clinique Dubaï",
+    "address": "2020 Building - Sheikh Zayed Rd, M202, Dubaï",
+    "whatsappLabel": "WhatsApp :",
+    "whatsappNumber": "+971 52 993 6643",
+    "whatsappButton": "Discuter sur WhatsApp",
+    "emailTitle": "Demande par Email",
+    "namePlaceholder": "Nom complet",
+    "emailPlaceholder": "Adresse e-mail",
+    "messagePlaceholder": "Décrivez vos symptômes...",
+    "submitButton": "Envoyer la demande"
+  },
+  "footer": {
+    "aboutTitle": "VenoCare Dubai",
+    "aboutText": "Clinique spécialisée dédiée au traitement avancé des varices au laser et aux soins vasculaires complets à Dubaï.",
+    "linksTitle": "Liens Rapides",
+    "socialTitle": "Suivez-nous",
+    "copyright": "© 2026 VenoCare Dubai. Tous droits réservés. | MOH Approval No. FW5Y1YUJ-270223"
+  }
+}

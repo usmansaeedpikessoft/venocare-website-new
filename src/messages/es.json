@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Tratamiento de Varices en Dubái | Especialistas en Ablación Láser y Cirugía Vascular",
+    "description": "Tratamiento experto de varices en Dubái. Especialistas en tratamiento láser, ablación venosa y escleroterapia para arañas vasculares. Alivio para la hinchazón y el dolor de piernas.",
+    "keywords": "tratamiento de varices dubái, cirujano vascular dubái, ablación de venas con láser, alivio de hinchazón de piernas, arañas vasculares visibles, escleroterapia dubái",
+    "ogTitle": "Tratamiento Avanzado de Varices en Dubái | VenoCare",
+    "ogDescription": "Alivio permanente para venas visibles e hinchazón de piernas con los mejores cirujanos vasculares de Dubái."
+  },
+  "header": {
+    "logoAlt": "VenoCare Dubai Clinic",
+    "phone": "052 993 6643",
+    "phoneLabel": "Tel",
+    "home": "Inicio",
+    "doctor": "Nuestro Médico",
+    "treatments": "Tratamientos",
+    "prices": "Precios",
+    "contact": "Contacto"
+  },
+  "promo": {
+    "text": "MIEMBROS DE ESAAD Y FAZAA: 20% DE DESCUENTO EN TODOS LOS PROCEDIMIENTOS"
+  },
+  "hero": {
+    "heading": "Tratamiento Avanzado de Varices en Dubái",
+    "subheading": "Alivio permanente para venas visibles e hinchazón de piernas mediante cirugía vascular moderna y terapia láser.",
+    "cta": "Solicitar Evaluación Clínica"
+  },
+  "physician": {
+    "sectionTitle": "Cirujano Vascular de Clase Mundial en Dubái",
+    "photoAlt": "Dr. Samir Issa - Cirujano Vascular Consultor",
+    "name": "Dr. Samir Issa",
+    "subtitle": "Cirujano Vascular Consultor y Director Médico",
+    "description": "Experto en tratamientos láser y tecnología endovascular."
+  },
+  "services": {
+    "sectionTitle": "Opciones de Tratamiento para Varices y Arañas Vasculares",
+    "ablation": {
+      "title": "Ablación Venosa y Láser",
+      "description": "Tratamiento láser mínimamente invasivo para un alivio permanente de las venas abultadas y el dolor de piernas.",
+      "alt": "Ablación de venas con láser"
+    },
+    "sclerotherapy": {
+      "title": "Arañas Vasculares y Venas Reticulares",
+      "description": "Elimine las venas visibles mediante escleroterapia rápida y sin dolor.",
+      "alt": "Eliminación con escleroterapia"
+    },
+    "diagnostic": {
+      "title": "Laboratorio Vascular Diagnóstico",
+      "description": "Estudio no invasivo para identificar la causa de la hinchazón de las piernas.",
+      "alt": "Laboratorio Vascular Diagnóstico"
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Precios de Tratamientos y Política de Promoción",
+    "policyTitle": "Política de Promoción",
+    "discount50a": "Ingresos familiares inferiores a 5000 AED al mes.",
+    "discount50b": "A partir de la 4ª sesión de escleroterapia.",
+    "discount25": "Ingresos familiares inferiores a 10000 AED al mes y profesionales médicos.",
+    "discount50Label": "50% de Descuento:",
+    "discount25Label": "25% de Descuento:",
+    "serviceHeader": "Servicio Médico / Procedimiento",
+    "priceHeader": "Precio (AED)",
+    "services": [
+      { "name": "Consulta de Cirugía Vascular", "price": "500" },
+      { "name": "Examen de Ultrasonido Detallado (Ambos Lados)", "price": "1,300" },
+      { "name": "Consulta Vascular + Ultrasonido (en un plazo de 10 días)", "price": "1,200" },
+      { "name": "Estudio de Laboratorio Vascular no Invasivo (Arterial o Venoso)", "price": "1,600" },
+      { "name": "Escleroterapia de Venas Superficiales (Guiada por Ultrasonido)", "price": "2,500" },
+      { "name": "Sesión de Escleroterapia/Veinwave (20 Min)", "price": "2,500" },
+      { "name": "Tratamiento Veinwave de Arañas Vasculares Faciales (10 Min)", "price": "1,500" },
+      { "name": "Radiofrecuencia VeinWave/EVRF (Facial - 10 Min o menos)", "price": "1,500" },
+      { "name": "Primer Tratamiento de Endocierre Venoso (Láser o RF)", "price": "12,450" },
+      { "name": "Segundo Endocierre Venoso (Misma Sesión)", "price": "6,000" }
+    ]
+  },
+  "education": {
+    "sectionTitle": "Educación del Paciente y Salud de las Piernas",
+    "pdfTitle": "Guías Educativas para el Paciente (PDF)",
+    "pdfs": ["#ScleroTherapy", "#Laser Ablation", "#Face Vessels", "#Improving Venous Flow", "#FAQ"],
+    "items": [
+      {
+        "title": "¿Qué causa la hinchazón de piernas?",
+        "text": "La hinchazón suele ser signo de una insuficiencia venosa subyacente identificada mediante ecografía. Es mejor evaluarla a tiempo."
+      },
+      {
+        "title": "Arañas Vasculares Visibles",
+        "text": "Las venas abultadas o arañas vasculares pueden ser indicadores de fallos en las válvulas vasculares y se tratan eficazmente tras una evaluación."
+      },
+      {
+        "title": "Dolor de Piernas",
+        "text": "El dolor crónico de piernas es un síntoma clásico de las varices que puede tratarse permanentemente mediante ablación venosa."
+      }
+    ]
+  },
+  "contact": {
+    "locationTitle": "Ubicación de la Clínica en Dubái",
+    "address": "2020 Building - Sheikh Zayed Rd, M202, Dubai",
+    "whatsappLabel": "WhatsApp:",
+    "whatsappNumber": "+971 52 993 6643",
+    "whatsappButton": "Chat por WhatsApp",
+    "emailTitle": "Consulta por Email",
+    "namePlaceholder": "Nombre Completo",
+    "emailPlaceholder": "Correo Electrónico",
+    "messagePlaceholder": "Describa sus síntomas...",
+    "submitButton": "Enviar Consulta"
+  },
+  "footer": {
+    "aboutTitle": "VenoCare Dubai",
+    "aboutText": "Clínica especializada dedicada al tratamiento avanzado de varices con láser y cuidado vascular integral en Dubái.",
+    "linksTitle": "Enlaces Rápidos",
+    "socialTitle": "Síguenos",
+    "copyright": "© 2026 VenoCare Dubai. Todos los derechos reservados. | Aprobación MOH No. FW5Y1YUJ-270223"
+  }
+}

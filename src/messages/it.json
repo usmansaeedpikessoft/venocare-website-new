@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Trattamento Vene Varicose Dubai | Specialisti in Ablazione Laser e Chirurgia Vascolare",
+    "description": "Trattamento esperto per vene varicose a Dubai. Specializzati in trattamento laser, ablazione venosa e scleroterapia per capillari e vene varicose. Sollievo per gonfiore e dolori alle gambe.",
+    "keywords": "trattamento vene varicose dubai, chirurgo vascolare dubai, ablazione laser vene, sollievo gonfiore gambe, capillari visibili, scleroterapia dubai",
+    "ogTitle": "Trattamento Avanzato Vene Varicose a Dubai | VenoCare",
+    "ogDescription": "Sollievo permanente per vene visibili e gonfiore alle gambe con i migliori chirurghi vascolari a Dubai."
+  },
+  "header": {
+    "logoAlt": "VenoCare Dubai Logo - Chirurgo Vascolare a Dubai",
+    "phone": "052 993 6643",
+    "phoneLabel": "Chiama",
+    "home": "Home",
+    "doctor": "Il Nostro Medico",
+    "treatments": "Trattamenti",
+    "prices": "Listino Prezzi",
+    "contact": "Contatti"
+  },
+  "promo": {
+    "text": "MEMBRI ESAAD & FAZAA: 20% DI SCONTO SU TUTTE LE PROCEDURE"
+  },
+  "hero": {
+    "heading": "Trattamento Avanzato Vene Varicose a Dubai",
+    "subheading": "Sollievo permanente per vene visibili e gonfiore alle gambe attraverso la moderna chirurgia vascolare e la terapia laser.",
+    "cta": "Richiedi Valutazione Clinica"
+  },
+  "physician": {
+    "sectionTitle": "Chirurgo Vascolare di Livello Internazionale a Dubai",
+    "photoAlt": "Dr. Samir Issa - Chirurgo Vascolare e Direttore Medico",
+    "name": "Dr. Samir Issa",
+    "subtitle": "Consulente Chirurgo Vascolare e Direttore Medico",
+    "description": "Esperto in trattamenti laser e tecnologia endovascolare."
+  },
+  "services": {
+    "sectionTitle": "Opzioni di Trattamento Vene Varicose e Capillari",
+    "ablation": {
+      "title": "Ablazione Venosa e Laser",
+      "description": "Trattamento laser minimamente invasivo per un sollievo permanente da vene sporgenti e dolore alle gambe.",
+      "alt": "Ablazione Laser delle Vene"
+    },
+    "sclerotherapy": {
+      "title": "Capillari e Vene Reticolari",
+      "description": "Rimuovi i capillari visibili con la scleroterapia, una procedura rapida e indolore.",
+      "alt": "Rimozione Capillari"
+    },
+    "diagnostic": {
+      "title": "Laboratorio Vascolare Diagnostico",
+      "description": "Studio non invasivo per identificare la causa del gonfiore alle gambe.",
+      "alt": "Laboratorio Vascolare Diagnostico"
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Prezzi dei Trattamenti e Politica Promozionale",
+    "policyTitle": "Politica Promozionale",
+    "discount50a": "Reddito familiare inferiore a 5.000 AED al mese.",
+    "discount50b": "Dalla 4ª sessione in poi per la scleroterapia.",
+    "discount25": "Reddito familiare inferiore a 10.000 AED al mese e professionisti medici.",
+    "discount50Label": "Sconto del 50%:",
+    "discount25Label": "Sconto del 25%:",
+    "serviceHeader": "Servizio Medico / Procedura",
+    "priceHeader": "Prezzo (AED)",
+    "services": [
+      { "name": "Consulenza di Chirurgia Vascolare", "price": "500" },
+      { "name": "Esame Ecografico Dettagliato (Entrambi i lati)", "price": "1,300" },
+      { "name": "Consulenza Vascolare + Ecografia (entro 10 giorni)", "price": "1,200" },
+      { "name": "Studio di Laboratorio Vascolare Non Invasivo (Arterioso o Venoso)", "price": "1,600" },
+      { "name": "Scleroterapia delle Vene Superficiali (Ecoguidata)", "price": "2,500" },
+      { "name": "Sessione Scleroterapia/Veinwave (20 Min)", "price": "2,500" },
+      { "name": "Trattamento Veinwave per Capillari Viso (10 Min)", "price": "1,500" },
+      { "name": "Radiofrequenza VeinWave/EVRF (Viso - 10 Min o meno)", "price": "1,500" },
+      { "name": "Trattamento Endo-occlusione (Laser o RF) - Prima Vena", "price": "12,450" },
+      { "name": "Seconda Vena (Stessa Sessione) Endo-occlusione", "price": "6,000" }
+    ]
+  },
+  "education": {
+    "sectionTitle": "Educazione del Paziente e Salute delle Gambe",
+    "pdfTitle": "Guide Educative per il Paziente (PDF)",
+    "pdfs": ["#ScleroTherapy", "#Laser Ablation", "#Face Vessels", "#Improving Venous Flow", "#FAQ"],
+    "items": [
+      {
+        "title": "Cosa causa il gonfiore alle gambe?",
+        "text": "Il gonfiore è spesso un segno di insufficienza venosa sottostante identificata tramite ecografia. È meglio essere valutati precocemente."
+      },
+      {
+        "title": "Capillari Visibili",
+        "text": "Vene evidenti o capillari possono essere indicatori di malfunzionamenti delle valvole vascolari e vengono trattati efficacemente dopo una valutazione."
+      },
+      {
+        "title": "Dolore alle Gambe",
+        "text": "Il dolore cronico alle gambe è un sintomo classico delle vene varicose che può essere trattato permanentemente tramite ablazione venosa."
+      }
+    ]
+  },
+  "contact": {
+    "locationTitle": "Clinica a Dubai",
+    "address": "2020 Building - Sheikh Zayed Rd, M202, Dubai",
+    "whatsappLabel": "WhatsApp:",
+    "whatsappNumber": "+971 52 993 6643",
+    "whatsappButton": "Chat su WhatsApp",
+    "emailTitle": "Richiesta via Email",
+    "namePlaceholder": "Nome Completo",
+    "emailPlaceholder": "Indirizzo Email",
+    "messagePlaceholder": "Descrivi i sintomi...",
+    "submitButton": "Invia Richiesta"
+  },
+  "footer": {
+    "aboutTitle": "VenoCare Dubai",
+    "aboutText": "Clinica specialistica dedicata al trattamento laser avanzato delle vene varicose e alla cura vascolare a Dubai.",
+    "linksTitle": "Link Rapidi",
+    "socialTitle": "Seguici",
+    "copyright": "© 2026 VenoCare Dubai. Tutti i diritti riservati. | Approvazione MOH n. FW5Y1YUJ-270223"
+  }
+}

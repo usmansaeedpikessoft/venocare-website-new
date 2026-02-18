@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Varicose Veins Treatment Dubai | Laser Ablation & Vascular Surgery Specialists",
+    "description": "Expert varicose veins treatment in Dubai. Specializing in laser treatment, venous ablation, and sclerotherapy for spider veins and varicose veins. Relief for leg swelling and aches.",
+    "keywords": "varicose veins treatment dubai, vascular surgeon dubai, laser vein ablation, leg swelling relief, visible spider veins, sclerotherapy dubai",
+    "ogTitle": "Advanced Varicose Veins Treatment in Dubai | VenoCare",
+    "ogDescription": "Permanent relief for visible veins and leg swelling with the best vascular surgeons in Dubai."
+  },
+  "header": {
+    "logoAlt": "VenoCare Dubai Clinic",
+    "phone": "052 993 6643",
+    "phoneLabel": "Call",
+    "home": "Home",
+    "doctor": "Our Doctor",
+    "treatments": "Treatments",
+    "prices": "Price List",
+    "contact": "Contact"
+  },
+  "promo": {
+    "text": "ESAAD & FAZAA MEMBERS: 20% DISCOUNT ON ALL PROCEDURES"
+  },
+  "hero": {
+    "heading": "Advanced Varicose Veins Treatment in Dubai",
+    "subheading": "Providing permanent relief for visible veins and leg swelling through modern vascular surgery and laser therapy.",
+    "cta": "Request Clinical Assessment"
+  },
+  "physician": {
+    "sectionTitle": "VenoCare Medical Director",
+    "photoAlt": "Dr. Samir Issa - Consultant Vascular Surgeon",
+    "name": "Dr. Samir Issa",
+    "subtitle": "18 years Treating Varicose Veins",
+    "description": "Expert in laser treatments and endovascular technology."
+  },
+  "services": {
+    "sectionTitle": "Treatment Options for Varicose & Spider Veins",
+    "ablation": {
+      "title": "Vein Ablation & Laser",
+      "description": "Minimally invasive laser treatment for permanent relief from bulging and leg pain.",
+      "alt": "Laser Vein Ablation"
+    },
+    "sclerotherapy": {
+      "title": "Spider & Thread Veins",
+      "description": "Remove visible thread veins and spider veins with fast, painless Sclerotherapy.",
+      "alt": "Sclerotherapy Removal"
+    },
+    "diagnostic": {
+      "title": "Diagnostic Vascular Lab",
+      "description": "Non-invasive study to identify the cause of leg swelling.",
+      "alt": "Diagnostic Vascular Lab"
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Treatment Prices & Promotion Policy",
+    "policyTitle": "Promotion Policy",
+    "discount50a": "Household income less than AED 5000 per month.",
+    "discount50b": "From Session 4 onwards for sclerotherapy.",
+    "discount25": "Household income less than AED 10000 per month, and medical professionals.",
+    "discount50Label": "50% Discount:",
+    "discount25Label": "25% Discount:",
+    "serviceHeader": "Medical Service / Procedure",
+    "priceHeader": "Price (AED)",
+    "services": [
+      { "name": "Vascular Surgery Consultation", "price": "500" },
+      { "name": "Detailed Ultrasound Examination (Both Sides)", "price": "1,300" },
+      { "name": "Consultation + Ultrasound (within 10 days)", "price": "1,200" },
+      { "name": "Non-Invasive Vascular Lab Study (Arterial or Venous)", "price": "1,600" },
+      { "name": "Sclerotherapy of Superficial Veins (Ultrasound Guided)", "price": "2,500" },
+      { "name": "Sclerotherapy/Veinwave Session (20 Min)", "price": "2,500" },
+      { "name": "Veinwave Treatment for Facial Spider Veins (10 Min)", "price": "1,500" },
+      { "name": "Radio Frequency VeinWave/EVRF (Face - 10 Min or less)", "price": "1,500" },
+      { "name": "First Vein Endo-Closure Treatment (Laser or RF)", "price": "12,450" },
+      { "name": "Second Vein (Same Session) Endo-Closure", "price": "6,000" }
+    ]
+  },
+  "education": {
+    "sectionTitle": "Patient Education & Leg Health Resources",
+    "pdfTitle": "Patient Education Guides (PDF)",
+    "pdfs": ["#ScleroTherapy", "#Laser Ablation", "#Face Vessels", "#Improving Venous Flow", "#FAQ"],
+    "items": [
+      {
+        "title": "What Causes Leg Swelling?",
+        "text": "Leg swelling is often a sign of underlying venous insufficiency identified via ultrasound. It is better to be assessed early."
+      },
+      {
+        "title": "Visible Spider Veins",
+        "text": "Visible gross veins or spider veins can be indicators of vascular valve malfunctions and are treated effectively after evaluation."
+      },
+      {
+        "title": "Leg Pain",
+        "text": "Chronic leg pain is a classic symptom of varicose veins that can be treated permanently via venous ablation."
+      }
+    ]
+  },
+  "contact": {
+    "locationTitle": "Dubai Clinic Location",
+    "address": "2020 Building - Sheikh Zayed Rd, M202, Dubai",
+    "whatsappLabel": "WhatsApp:",
+    "whatsappNumber": "+971 52 993 6643",
+    "whatsappButton": "Chat on WhatsApp",
+    "emailTitle": "Email Inquiry",
+    "namePlaceholder": "Full Name",
+    "emailPlaceholder": "Email Address",
+    "messagePlaceholder": "Describe symptoms...",
+    "submitButton": "Send Inquiry"
+  },
+  "footer": {
+    "aboutTitle": "VenoCare Dubai",
+    "aboutText": "Specialist clinic dedicated to advanced laser treatment of varicose veins and comprehensive vascular care in Dubai.",
+    "linksTitle": "Quick Links",
+    "socialTitle": "Follow Us",
+    "copyright": "© 2026 VenoCare Dubai. All rights reserved. | MOH Approval No. FW5Y1YUJ-270223"
+  }
+}
