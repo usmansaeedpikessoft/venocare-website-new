@@ -1,5 +1,6 @@
 import { Raleway } from "next/font/google";
 import "./globals.css";
+import ThemeProvider from "@/components/ThemeProvider";
 
 const raleway = Raleway({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -14,10 +15,16 @@ export default function RootLayout({
 }) {
   return (
     <html className="scroll-smooth" suppressHydrationWarning>
-      <body
-        className={`${raleway.variable} font-sans antialiased text-gray-800`}
-      >
-        {children}
+      <head>
+        {/* Prevent flash of wrong theme before React hydrates */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{var t=localStorage.getItem('theme'),s=window.matchMedia('(prefers-color-scheme: dark)').matches;if(t==='dark'||(!t&&s))document.documentElement.classList.add('dark');}catch(e){}`,
+          }}
+        />
+      </head>
+      <body className={`${raleway.variable} font-sans antialiased`}>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

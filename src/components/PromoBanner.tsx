@@ -6,8 +6,8 @@ export default function PromoBanner() {
   const t = useTranslations("promo");
 
   return (
-    <div className="bg-calm-mint px-4 py-2.5 text-center">
-      <p className="inline-flex items-center gap-2 text-xs font-extrabold tracking-wide text-green-800 sm:text-sm">
+    <div className="bg-calm-mint px-4 py-2.5 text-center dark:bg-green-900/30">
+      <p className="inline-flex items-center gap-2 text-xs font-extrabold tracking-wide text-green-800 dark:text-green-300 sm:text-sm">
         <svg
           className="h-4 w-4 shrink-0"
           fill="none"

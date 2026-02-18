@@ -13,7 +13,7 @@ export default function Services() {
   const t = useTranslations("services");
 
   return (
-    <section id="services" className="bg-gray-50 px-4 py-16 sm:px-6 sm:py-20">
+    <section id="services" className="bg-gray-50 px-4 py-16 dark:bg-gray-800/60 sm:px-6 sm:py-20">
       <div className="mx-auto max-w-7xl">
         {/* Section header */}
         <div className="mb-12 text-center">
@@ -25,10 +25,10 @@ export default function Services() {
           {serviceCards.map(({ key, image }, i) => (
             <article
               key={key}
-              className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+              className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl dark:border-gray-700 dark:bg-gray-800"
             >
               {/* Image */}
-              <div className="relative h-60 overflow-hidden bg-gray-100">
+              <div className="relative h-60 overflow-hidden bg-gray-100 dark:bg-gray-700">
                 <Image
                   src={image}
                   alt={t(`${key}.alt`)}
@@ -45,8 +45,8 @@ export default function Services() {
 
               {/* Content */}
               <div className="p-6">
-                <h3 className="mb-2 text-lg font-bold text-gray-900">{t(`${key}.title`)}</h3>
-                <p className="text-sm leading-relaxed text-gray-600">{t(`${key}.description`)}</p>
+                <h3 className="mb-2 text-lg font-bold text-gray-900 dark:text-white">{t(`${key}.title`)}</h3>
+                <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">{t(`${key}.description`)}</p>
               </div>
             </article>
           ))}

@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Enable class-based dark mode for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme inline {
   --color-primary: #1D67CD;
   --color-secondary: #9155A7;
@@ -19,9 +22,7 @@ body {
   font-family: var(--font-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  /* Medical site: force light mode */
-  :root {
-    color-scheme: light;
-  }
+.dark body {
+  background: #111827;
+  color: #f3f4f6;
 }

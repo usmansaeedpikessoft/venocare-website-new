@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useTheme } from "./ThemeProvider";
 
 const languages = [
   { code: "en", flag: "🇬🇧", label: "English" },
@@ -26,6 +27,7 @@ const navLinks = [
 export default function Header() {
   const t = useTranslations("header");
   const locale = useLocale();
+  const { theme, toggle } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -48,7 +50,9 @@ export default function Header() {
   return (
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/95 shadow-md backdrop-blur-sm" : "bg-white shadow-sm"
+        scrolled
+          ? "bg-white/95 shadow-md backdrop-blur-sm dark:bg-gray-900/95"
+          : "bg-white shadow-sm dark:bg-gray-900"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
@@ -59,7 +63,7 @@ export default function Header() {
             alt={t("logoAlt")}
             width={140}
             height={50}
-            className="h-10 w-auto sm:h-12"
+            className="h-10 w-auto sm:h-12 dark:brightness-0 dark:invert"
             priority
           />
         </Link>
@@ -70,7 +74,7 @@ export default function Header() {
             <a
               key={key}
               href={href}
-              className="group relative text-sm font-semibold text-gray-700 transition-colors hover:text-primary"
+              className="group relative text-sm font-semibold text-gray-700 transition-colors hover:text-primary dark:text-gray-300 dark:hover:text-primary"
             >
               {t(key)}
               <span className="absolute -bottom-0.5 start-0 h-0.5 w-0 rounded-full bg-primary transition-all duration-300 group-hover:w-full" />
@@ -84,14 +88,14 @@ export default function Header() {
           <div className="relative" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={() => { setLangOpen(!langOpen); setMenuOpen(false); }}
-              className="flex items-center gap-1.5 rounded-full border border-gray-200 px-3 py-1.5 text-sm transition-colors hover:border-primary"
+              className="flex items-center gap-1.5 rounded-full border border-gray-200 px-3 py-1.5 text-sm transition-colors hover:border-primary dark:border-gray-600 dark:text-gray-300"
               aria-label="Switch language"
               aria-expanded={langOpen}
             >
               <span className="text-base">{currentLang.flag}</span>
               <span className="hidden sm:inline">{currentLang.code.toUpperCase()}</span>
               <svg
-                className={`h-3 w-3 text-gray-500 transition-transform duration-200 ${langOpen ? "rotate-180" : ""}`}
+                className={`h-3 w-3 text-gray-500 transition-transform duration-200 dark:text-gray-400 ${langOpen ? "rotate-180" : ""}`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -102,16 +106,16 @@ export default function Header() {
             </button>
 
             {langOpen && (
-              <div className="absolute end-0 top-full mt-2 w-44 overflow-hidden rounded-xl border border-gray-100 bg-white shadow-xl">
+              <div className="absolute end-0 top-full mt-2 w-44 overflow-hidden rounded-xl border border-gray-100 bg-white shadow-xl dark:border-gray-700 dark:bg-gray-800">
                 {languages.map((lang) => (
                   <Link
                     key={lang.code}
                     href={`/${lang.code}`}
                     onClick={() => setLangOpen(false)}
-                    className={`flex items-center gap-3 px-4 py-2.5 text-sm transition-colors hover:bg-gray-50 ${
+                    className={`flex items-center gap-3 px-4 py-2.5 text-sm transition-colors hover:bg-gray-50 dark:hover:bg-gray-700 ${
                       lang.code === locale
-                        ? "bg-calm-mint font-semibold text-primary"
-                        : "text-gray-700"
+                        ? "bg-calm-mint font-semibold text-primary dark:bg-green-900/30"
+                        : "text-gray-700 dark:text-gray-300"
                     }`}
                   >
                     <span className="text-base">{lang.flag}</span>
@@ -127,6 +131,25 @@ export default function Header() {
             )}
           </div>
 
+          {/* Dark / Light toggle */}
+          <button
+            onClick={toggle}
+            className="rounded-lg p-2 text-gray-600 transition-colors hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
+            aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+          >
+            {theme === "dark" ? (
+              /* Sun icon */
+              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+              </svg>
+            ) : (
+              /* Moon icon */
+              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              </svg>
+            )}
+          </button>
+
           {/* Phone CTA */}
           <a
             href="tel:+971529936643"
@@ -141,7 +164,7 @@ export default function Header() {
           {/* Mobile menu toggle */}
           <button
             onClick={() => { setMenuOpen(!menuOpen); setLangOpen(false); }}
-            className="rounded-lg p-2 text-gray-600 transition-colors hover:bg-gray-100 md:hidden"
+            className="rounded-lg p-2 text-gray-600 transition-colors hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800 md:hidden"
             aria-label="Toggle menu"
             aria-expanded={menuOpen}
           >
@@ -160,14 +183,14 @@ export default function Header() {
 
       {/* Mobile Nav */}
       {menuOpen && (
-        <nav aria-label="Mobile navigation" className="border-t border-gray-100 bg-white px-4 pb-5 md:hidden">
+        <nav aria-label="Mobile navigation" className="border-t border-gray-100 bg-white px-4 pb-5 dark:border-gray-700 dark:bg-gray-900 md:hidden">
           <div className="mt-2 space-y-1">
             {navLinks.map(({ href, key }) => (
               <a
                 key={key}
                 href={href}
                 onClick={() => setMenuOpen(false)}
-                className="flex items-center rounded-xl px-4 py-3 text-sm font-semibold text-gray-700 transition-colors hover:bg-calm-mint hover:text-primary"
+                className="flex items-center rounded-xl px-4 py-3 text-sm font-semibold text-gray-700 transition-colors hover:bg-calm-mint hover:text-primary dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-primary"
               >
                 {t(key)}
               </a>
